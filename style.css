@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:2.5em;
+    display:flex;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    margin: 0;
+    padding-left:60px;
+    font-family: "lucida Handwriting",cursive;
+}
+
+header p {
+    margin-top: 0.5em;
+    padding-left:60px;
+    font-family: "lucidia handwriting",cursive;
+}
+.nav{
+    margin:auto;
+    max-width: 1100px;
+}
+ul{
+    list-style-type:none;
+    float:right;
+    margin-top:25px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:5px;
+    border-radius: 2px;
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+    transition: 0.6s ease;
+}
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.active{
+    background-color:whitesmoke;
+    color:black;
+}
+
+.image{
+    background-image: url("images/Heroimg.jpeg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.center-text{
+    margin-top:300px;
+    text-align: center;
+}
+.center-text h1{
+    color: black;
+    font-family: "Sofia", sans-serif;
+  font-size:45px;
+}
+.btn{
+    border:1px solid white;
+    color:white;
+    padding:5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+    transition: 0.6s ease;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    height:300px;
+    width:250px;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+section h2{
+    color:#990b3a;
+}
+.Services,
+.about,
+.contact,
+.info,
+.intro,
+.portfolio{
+    font-family:'Lucida Handwriting';
+}
+.contact-sub p{
+    height: 50px;
+    width:auto;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
